@@ -1,0 +1,180 @@
+.icon{
+    width: 20px;
+}
+/* Base styles */
+
+.SCHOOL {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.SCHOOL p:first-child {
+  font-size: 18px;
+  color: #666;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.SCHOOL p:last-child {
+  font-size: 36px;
+  font-weight: bold;
+  color: #111212;
+}
+
+.prsankul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.sankul {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.sankulimg {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.sankul p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin: 10px 0 5px;
+  fill: #111212;
+}
+
+.addd1 {
+  background-color: #111212;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+}
+
+.addd1:hover {
+  background-color: #333;
+}
+
+/* MEDIA QUERIES */
+
+/* Desktop 1600px and below */
+@media (max-width: 1600px) {
+  .prsankul {
+    gap: 25px;
+  }
+}
+
+/* Desktop 1440px and below */
+@media (max-width: 1440px) {
+  .SCHOOL p:last-child {
+    font-size: 32px;
+  }
+  .sankul {
+    width: 280px;
+    padding: 18px;
+  }
+}
+
+/* Desktop 1280px and below */
+@media (max-width: 1366px) {
+  .prsankul {
+    justify-content: space-around;
+  }
+  .sankul {
+    width: 260px;
+  }
+}
+
+/* iPad landscape 1024px and below */
+@media (max-width: 1199px) {
+  .prsankul {
+    gap: 20px;
+  }
+  .sankul {
+    width: 240px;
+  }
+}
+
+/* iPad portrait 991px and below */
+@media (max-width: 991px) {
+  .prsankul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sankul {
+    width: 80%;
+    max-width: 350px;
+    margin-bottom: 30px;
+  }
+}
+
+/* iPhone 767px and below */
+@media (max-width: 767px) {
+  .SCHOOL p:last-child {
+    font-size: 28px;
+  }
+  .sankul {
+    width: 90%;
+    padding: 15px;
+  }
+}
+
+/* iPhone 567px and below */
+@media (max-width: 567px) {
+  .SCHOOL p:first-child {
+    font-size: 14px;
+  }
+  .SCHOOL p:last-child {
+    font-size: 24px;
+  }
+  .addd1 {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile 375px and below */
+@media (max-width: 375px) {
+  .SCHOOL p:last-child {
+    font-size: 22px;
+  }
+  .sankul p {
+    font-size: 14px;
+  }
+  .addd1 {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
+
+/* Mobile 320px and below */
+@media (max-width: 320px) {
+  .SCHOOL p:last-child {
+    font-size: 20px;
+  }
+  .sankul {
+    width: 95%;
+    padding: 12px;
+  }
+}

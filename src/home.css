@@ -1,0 +1,261 @@
+ /* .user{
+    width: 20px;
+}
+.riddhi{
+    width: 300px;
+} */
+ .rii {
+   color: red;
+ }
+
+ .profile-section {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-around;
+   padding: 40px;
+   gap: 40px;
+   flex-wrap: wrap;
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+
+ .profile-info {
+   flex: 1;
+   min-width: 300px;
+ }
+
+ .kachhadiyariddhi {
+   background-color: #fdfdfd;
+   padding: 30px;
+   border-radius: 12px;
+   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .kachhadiyariddhi .user {
+   width: 22px;
+   height: 22px;
+   margin-right: 8px;
+   vertical-align: middle;
+ }
+
+ .kachhadiyariddhi span {
+   display: block;
+   font-size: 22px;
+   margin: 4px 0;
+   /* color: #111; */
+ }
+
+ .kachhadiyariddhi p {
+   font-size: 16px;
+   margin: 12px 0 20px;
+   color: #333;
+ }
+
+ .kachhadiyariddhi>div {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 14px;
+ }
+
+ .gmailriddhi {
+   color: #007bff;
+   text-decoration: none;
+   font-size: 16px;
+ }
+
+ .gmailriddhi:hover {
+   text-decoration: underline;
+ }
+
+ .Download {
+   margin-top: 25px;
+   background-color: #eef3f8;
+   padding: 20px;
+   border-radius: 10px;
+   text-align: left;
+ }
+
+ .Download p {
+   font-weight: bold;
+   margin-bottom: 10px;
+ }
+
+ .Download button {
+   background-color: #007bff;
+   color: white;
+   border: none;
+   padding: 10px 18px;
+   font-size: 15px;
+   border-radius: 6px;
+   cursor: pointer;
+   transition: background 0.3s ease;
+ }
+
+ .Download button:hover {
+   background-color: #0056b3;
+ }
+
+ .Download a {
+   margin-left: 12px;
+   color: #0f0f10;
+   font-weight: 500;
+   text-decoration: none;
+ }
+
+ .Download a:hover {
+   text-decoration: underline;
+ }
+
+ .profile-image {
+   flex-shrink: 0;
+   /* min-width: 250px; */
+   text-align: center;
+ }
+
+ .riddhi {
+   width: 350px;
+   /* height: auto; */
+   border-radius: 12px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+ }
+
+ @media (max-width: 1850px) {
+   .profile-section {
+     max-width: 1400px;
+     gap: 30px;
+   }
+ }
+
+
+ @media (max-width: 1440px) {
+   .profile-section {
+     padding: 30px;
+   }
+
+ }
+
+ @media (max-width: 1366px) {
+   .profile-section {
+     gap: 25px;
+   }
+
+   .kachhadiyariddhi {
+     padding: 25px;
+   }
+ }
+
+ @media (max-width: 1199px) {
+   .profile-section {
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+   }
+
+   .profile-image {
+     margin-top: 20px;
+   }
+
+   .kachhadiyariddhi>div {
+     justify-content: center;
+   }
+
+   .Download {
+     text-align: center;
+   }
+ }
+
+ @media (max-width: 991px) {
+   .kachhadiyariddhi {
+     padding: 20px;
+   }
+
+   .Download {
+     padding: 15px;
+   }
+
+   .riddhi {
+     width: 180px;
+   }
+ }
+
+ @media (max-width: 767px) {
+   .kachhadiyariddhi {
+     padding: 18px;
+   }
+
+   .profile-section {
+     padding: 20px;
+   }
+
+   .Download button {
+     width: 100%;
+     margin-bottom: 10px;
+   }
+
+   .Download a {
+     display: block;
+     margin-top: 10px;
+   }
+ }
+
+ @media (max-width: 567px) {
+   .kachhadiyariddhi span {
+     font-size: 18px;
+   }
+
+   .kachhadiyariddhi p {
+     font-size: 14px;
+   }
+
+   .user {
+     width: 20px;
+     height: 20px;
+   }
+
+   .riddhi {
+     width: 160px;
+   }
+ }
+
+
+ @media (max-width: 375px) {
+   .profile-section {
+     padding: 15px;
+   }
+
+   .Download button {
+     font-size: 14px;
+     padding: 8px 16px;
+   }
+
+   .kachhadiyariddhi {
+     padding: 16px;
+   }
+ }
+
+
+ @media (max-width: 360px) {
+   .kachhadiyariddhi {
+     font-size: 14px;
+   }
+
+   .riddhi {
+     width: 140px;
+   }
+ }
+
+ @media (max-width: 320px) {
+   .kachhadiyariddhi {
+     padding: 12px;
+   }
+
+   .kachhadiyariddhi span {
+     font-size: 16px;
+   }
+
+   .Download p {
+     font-size: 14px;
+   }
+ }

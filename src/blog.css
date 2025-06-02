@@ -1,0 +1,190 @@
+/* blog.css */
+
+.mainVisit {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.Visit {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Visit p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.Visit p b {
+    font-size: 1.5rem;
+    color: #222;
+}
+
+.mainProficient {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Proficient {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 400px;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.Proficient:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.Proficient img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.Proficient span,
+.Proficient p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+/* Specific styling for the first Proficient text spans */
+.Proficient span:first-child {
+    font-style: italic;
+    color: #666;
+}
+
+.Proficient span:nth-child(2) {
+    font-weight: 700;
+    color: #222;
+}
+
+.Proficient span:last-child {
+    font-style: italic;
+    color: #666;
+}
+
+/* Base styles for your Blog component here */
+/* ... (previous styles you already have) ... */
+
+/* Desktop 1600px and below */
+@media (max-width: 1850px) {
+
+    /* Example: slightly reduce padding or font-size */
+    .mainVisit {
+        padding: 18px;
+    }
+}
+
+/* Desktop 1440px and below */
+@media (max-width: 1440px) {
+    .mainVisit {
+        max-width: 1100px;
+    }
+}
+
+/* Desktop 1280px and below */
+@media (max-width: 1366px) {
+    .mainVisit {
+        max-width: 960px;
+    }
+}
+
+/* iPad 1024px and below */
+@media (max-width: 1199px) {
+    .mainProficient {
+        gap: 18px;
+    }
+}
+
+/* iPad 991px and below */
+@media (max-width: 991px) {
+    .mainProficient {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Proficient {
+        max-width: 90%;
+    }
+}
+
+/* iPhone 767px and below */
+@media (max-width: 767px) {
+    .Visit p {
+        font-size: 1rem;
+    }
+
+    .Proficient {
+        padding: 15px;
+    }
+}
+
+/* iPhone 567px and below */
+@media (max-width: 567px) {
+    .Proficient {
+        padding: 12px;
+    }
+
+    .Proficient span,
+    .Proficient p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile 375px and below */
+@media (max-width: 375px) {
+    .mainVisit {
+        padding: 10px;
+    }
+
+    .Visit p b {
+        font-size: 1.2rem;
+    }
+
+    .Proficient {
+        padding: 10px;
+    }
+}
+
+/* Mobile 360px and below */
+@media (max-width: 360px) {
+    .Visit p {
+        font-size: 0.9rem;
+    }
+
+    .Proficient span,
+    .Proficient p {
+        font-size: 0.85rem;
+    }
+}
+
+/* Mobile 320px and below */
+@media (max-width: 320px) {
+    .Proficient {
+        padding: 8px;
+    }
+
+    .Visit p b {
+        font-size: 1rem;
+    }
+}

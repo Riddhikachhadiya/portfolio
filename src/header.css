@@ -1,0 +1,105 @@
+.headerdiv {
+    background-color: black;
+    /* height: 270px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 30px;
+    padding-left: 850px;
+}
+
+.headerhome1 {
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    align-items: center;
+    /* display: flex;
+    justify-content: center; */
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 0.5s ease;
+    margin: 0px;
+
+}
+
+.headerhome1:hover {
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    transform: translateY(-7px);
+    /* cursor: zoom-in; */
+}
+
+
+/* iPad portrait 991px */
+@media (max-width: 991px) {
+    .headerdiv {
+        padding-left: 100px;
+        gap: 8px;
+    }
+}
+
+/* iPhone landscape 767px */
+@media (max-width: 767px) {
+    .headerdiv {
+        padding-left: 50px;
+        gap: 5px;
+        flex-wrap: wrap;
+        /* જરુર પડે તો લાઈનમાં ફેલાવો */
+        justify-content: center;
+    }
+
+    .headerhome1 {
+        font-size: 16px;
+    }
+}
+
+/* iPhone portrait 567px */
+@media (max-width: 567px) {
+    .headerdiv {
+        padding-left: 20px;
+        gap: 4px;
+    }
+
+    .headerhome1 {
+        font-size: 14px;
+    }
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+    .headerdiv {
+        padding-left: 10px;
+        gap: 3px;
+    }
+
+    .headerhome1 {
+        font-size: 12px;
+    }
+}
+
+/* Mobile 360px */
+@media (max-width: 360px) {
+    .headerdiv {
+        padding-left: 5px;
+        gap: 2px;
+    }
+
+    .headerhome1 {
+        font-size: 11px;
+    }
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+    .headerdiv {
+        padding-left: 0;
+        gap: 1px;
+        flex-direction: column;
+        /* vertical stack mobile પર વધુ સારું લાગે */
+        align-items: center;
+    }
+
+    .headerhome1 {
+        font-size: 10px;
+    }
+}
